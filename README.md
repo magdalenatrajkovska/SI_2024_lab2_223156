@@ -44,13 +44,13 @@ null Barcode и Name -> фрлa RuntimeException("No barcode!")
 
 
    -multiple condition
-1) allItems = [Item(Name = 012, Barcode = 000l, Price = 355, Discount = 0.5)], payment = 145
+1) allItems = [Item(Name = a, Barcode = 0001, Price = 355, Discount = 0.5)], payment = 145
    TTT - сите се труе и програмата продолжува во if
-2) allItems = [Item(Name = 012, Barcode = 125, Price = 355, Discount = -1)], payment = 146
+2) allItems = [Item(Name = a, Barcode = 125, Price = 355, Discount = -1)], payment = 146
    TFF -   програмата нема да продолжи во if
-3)	allItems = [Item(Name = 012, Barcode = 125, Price = 355, Discount = 0.5)], payment = 147
+3)	allItems = [Item(Name = a, Barcode = 125, Price = 355, Discount = 0.5)], payment = 147
    TTF -   програмата нема да продолжи во if
-4)	allItems = [Item(Name = 012, Barcode = 125, Price = 200, Discount = -1)], payment = 148
+4)	allItems = [Item(Name = a, Barcode = 125, Price = 200, Discount = -1)], payment = 148
    FXX -   програмата нема да продолжи во if 				
 
 		
