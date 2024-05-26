@@ -15,8 +15,19 @@
    ![image](https://github.com/magdalenatrajkovska/SI_2024_lab2_223156/assets/139167699/1443e46f-bf76-4e72-919b-4137d12aa163)
 
 
-5. **Тест случаи според критериумот Multiple Condition**
+4. **Тест случаи според критериумот Multiple Condition**
    ![image](https://github.com/magdalenatrajkovska/SI_2024_lab2_223156/assets/139167699/a061d389-a01c-4b6c-8ac5-5a13208121b0)
 
 
-7. **Објаснување на напишаните unit tests**
+5. **Објаснување на напишаните unit tests**
+   -every branch
+ 1)  allItems = null
+    фрлa RuntimeException("allItems list can't be null!")
+   
+ 2)  "allItems=[Item("""", ""1111"", 300, 0.50),
+                  Item(""Item2"", ""2222"", 350, -1)]
+payment=1000;"
+
+
+   -multiple condition
+   
