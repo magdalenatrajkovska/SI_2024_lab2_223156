@@ -2,7 +2,8 @@
 
 **Control Flow Graph**
 
-![Untitled Diagram drawio](https://github.com/magdalenatrajkovska/SI_2024_lab2_223156/assets/139167699/e5d09f18-956d-44b4-8bb5-2c9a62c044b8)
+
+![Untitled Diagram drawio](https://github.com/magdalenatrajkovska/SI_2024_lab2_223156/assets/139167699/a2c279ca-5795-463a-9d22-ce0ad599a93e)
 
 
 **Цикломатска комплексност**
