@@ -16,5 +16,7 @@
 
 
 5. **Тест случаи според критериумот Multiple Condition**
+   ![image](https://github.com/magdalenatrajkovska/SI_2024_lab2_223156/assets/139167699/a061d389-a01c-4b6c-8ac5-5a13208121b0)
 
-6. **Објаснување на напишаните unit tests**
+
+7. **Објаснување на напишаните unit tests**
