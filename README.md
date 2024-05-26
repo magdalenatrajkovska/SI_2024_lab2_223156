@@ -24,10 +24,42 @@
  1)  allItems = null
     фрлa RuntimeException("allItems list can't be null!")
    
- 2)  "allItems=[Item("""", ""1111"", 300, 0.50),
+ 2)  "allItems=[Item(null, ""1111"", 300, 0.50),
                   Item(""Item2"", ""2222"", 350, -1)]
-payment=1000;"
+payment=10000;"
+  2 објекти, програмата заврсшува true
+
+3)"allItems=[Item(null, ""2222"", 350, 0.500),
+                  Item(""Item2"", ""666"", 350, -1)]
+payment=10;"
+ 2 објекти и голема вредност за payment, програмата заврсшува false
+
+ 4) "allItems=[Item("""", ""hhhh"", 100, -1),          
+    payment=100;"
+not valid Barcode-> фрла RuntimeException("Invalid character in item barcode!")
+
+6) "allItems=[Item(null, null , 100, -1),                
+payment=100;"
+null Barcode и Name -> фрлa RuntimeException("No barcode!")
 
 
    -multiple condition
+1) allItems = [Item(Name = 012, Barcode = 000l, Price = 355, Discount = 0.5)], payment = 145
+   TTT - сите се труе и програмата продолжува во if
+2) allItems = [Item(Name = 012, Barcode = 125, Price = 355, Discount = -1)], payment = 146
+   TFF -   програмата нема да продолжи во if
+3)	allItems = [Item(Name = 012, Barcode = 125, Price = 355, Discount = 0.5)], payment = 147
+   TTF -   програмата нема да продолжи во if
+4)	allItems = [Item(Name = 012, Barcode = 125, Price = 200, Discount = -1)], payment = 148
+   FXX -   програмата нема да продолжи во if 				
+
+		
+
+
+
+
+				
+
+
+   
    
